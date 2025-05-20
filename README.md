@@ -1,16 +1,27 @@
-# doctor_appointment_app
+# 🩺 Doctor Appointment App
 
-A new Flutter project.
+A Flutter app that allows patients to browse doctors, view profiles, and book appointments easily. It focuses on clean architecture and maintainable code.
 
-## Getting Started
+## ✅ Clean Code Principles
 
-This project is a starting point for a Flutter application.
+- Clear separation of layers
+- Follows SOLID principles
+- Modular, testable, and scalable
+- Organized and reusable widgets/components
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Flutter Flavors for CI/CD
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app uses **Flutter Flavors** to manage multiple environments:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `dev` – for local development
+- `prod` – for production release
+
+This setup makes CI/CD smoother and helps with easier environment configuration (API base URLs, app names/icons, etc.).
+
+## 🧠 State Management
+
+This app uses the **BLoC (Business Logic Component)** pattern for state management.
+
+- Ensures separation between UI and business logic
+- Makes the app more testable and maintainable
+- Helps manage complex states in a clean and scalable way
